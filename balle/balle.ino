@@ -1,8 +1,3 @@
-/*
-  Ce programme permet de gérer un afficheur matricielle de 5 * 7
-  que fait la procedure pixel ?
- */
- 
 // déclaration des broches pour la gestion des lignes et des colonnes
 int colonne[] = {7,6,5,4,3,2,1}; // matrice de colonne
 int ligne[] = {8,9,10,11,12};    // matrice de ligne

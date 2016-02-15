@@ -1,8 +1,3 @@
-/*
-  Ce programme permet de gérer un afficheur matricielle de 5 * 7
-  que fait la procedure pixel ?
- */
- 
 // déclaration des broches pour la gestion des lignes et des colonnes
 int colonne[] = {7,6,5,4,3,2,1}; // matrice de colonne
 int ligne[] = {8,9,10,11,12};    // matrice de ligne
@@ -44,9 +39,8 @@ void pixeloff(int i, int j) {
 
 // programme principal:
 void loop() {
-  buttonState = digitalRead(buttonPin);
+  buttonState = digitalRead(buttonPin); // pour le controle plus tard
   if (buttonState == LOW) {
-    // turn LED on:
 //    snakex = snakex + snakex[sizes-1];
 //    snakey = snakey + snakey[sizes-1];
     //sizes += 1;
